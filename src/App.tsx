@@ -16,6 +16,7 @@ import PartnerLogin from "./pages/PartnerLogin";
 import PartnerPortal from "./pages/PartnerPortal";
 import Concierge from "./pages/Concierge";
 import News from "./pages/News";
+import Merch from "./pages/Merch";
 import NotFound from "./pages/NotFound";
 import AdminLogin from "./pages/AdminLogin";
 import AdminDashboard from "./pages/AdminDashboard";
@@ -83,6 +84,7 @@ const App = () => {
               <Route path="/partner-portal" element={<PartnerPortal />} />
               <Route path="/concierge" element={<Concierge />} />
               <Route path="/news" element={<News />} />
+              <Route path="/merch" element={<Merch />} />
               <Route path="/admin" element={<AdminLogin />} />
               <Route path="/admin/dashboard" element={<AdminDashboard />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
