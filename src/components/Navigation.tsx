@@ -35,6 +35,7 @@ const Navigation = ({ isDark, toggleTheme }: NavigationProps) => {
     { href: '#leadership', label: 'Leadership' },
     { href: '/news', label: 'News', isRoute: true },
     { href: '#investors', label: 'Partners' },
+    { href: '/merch', label: 'Merch', isRoute: true },
   ];
 
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string, isRoute?: boolean) => {
