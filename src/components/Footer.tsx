@@ -44,7 +44,6 @@ const Footer = ({ isDark }: FooterProps) => {
         <div className="mt-6 md:mt-8 pt-6 md:pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-3 md:gap-4 text-center md:text-left">
           <p className="text-xs text-muted-foreground">
             © {currentYear} Filmology Labs. All rights reserved.
-            <span className="ml-2 text-primary" aria-hidden="true">&#9670;</span>
           </p>
           <p className="text-xs text-muted-foreground">
             61 State Street, Paterson, New Jersey 07514
